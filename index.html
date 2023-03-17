@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Document</title>
-</head>
-<body>
-
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>    
-</body>
+  </head>
+  <body>
+    <div class="bg-dark-gray d-flex vh-100 vw-100 flex-column">
+      <nav>
+        <ul class="nav nav-pills bg-pink">
+          <li class="nav-item">
+            <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark disable">About us</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="d-flex">
+        <aside
+          class="w-25 h-auto d-flex flex-column justify-content-center align-items-center"
+          style="background-color: rgba(40, 44, 56, 1)"
+        >
+          <div
+            class="rounded-circle d-flex align-items-center justify-content-center w-50 h-50"
+          >
+            <img
+              src="assets/img/icono-google-aislado-3d-renderizar-ilustracion_47987-9777.avif"
+              class="img-fluid rounded-circle"
+              alt=""
+            />
+          </div>
+        </aside>
+        <section class="d-flex flex-wrap vh-100 vw-100 gap-2 justify-content-around">
+          <div class="bg-primary mt-2" style="width: 40%; height: 40%;"></div>
+          <div class="bg-secondary mt-2" style="width: 40%; height: 40%;"></div>
+          <div class="bg-light m-2" style="width: 90%; height: 40%;"></div>
+        </section>
+      </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  </body>
 </html>
